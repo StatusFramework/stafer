@@ -1,0 +1,27 @@
+{
+    "name": "stafer-framework/stafer",
+    "description": "PHP Project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stafer",
+            "email": "stafer.framework@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "App\\Models\\": "app/models/"
+        },
+        "classmap": [
+        ],
+        "files": [
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "7.3",
+        "filp/whoops": "dev-master",
+        "symfony/console": "4.4.x-dev"
+    }
+}
